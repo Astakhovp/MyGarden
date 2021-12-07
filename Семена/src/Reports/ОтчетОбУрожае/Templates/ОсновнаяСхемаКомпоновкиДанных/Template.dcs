@@ -44,6 +44,10 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сезон</dataPath>
+			<field>Сезон</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	Сорта.Владелец КАК Вид,
@@ -52,7 +56,7 @@
 	СобраныйУрожайОбороты.Растение КАК Растение,
 	СобраныйУрожайОбороты.Номенклатура КАК Номенклатура
 ИЗ
-	РегистрНакопления.СобраныйУрожай.Обороты КАК СобраныйУрожайОбороты
+	РегистрНакопления.СобраныйУрожай.Обороты(,,, Сезон = &amp;СезонВыращивания) КАК СобраныйУрожайОбороты
 		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.ВысаженнаяРассада КАК ВысаженнаяРассада
 			ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Сорта КАК Сорта
 			ПО ВысаженнаяРассада.Сорт = Сорта.Ссылка
@@ -96,6 +100,25 @@
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
 	</parameter>
+	<parameter>
+		<name>СезонВыращивания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сезон выращивания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>4</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="v8:LocalStringType">
@@ -116,10 +139,26 @@
 					<dcsset:field>Количество</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>СезонВыращивания</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">2022</dcscor:value>
+					<dcsset:userSettingID>ac7e9369-2d5a-4f0b-b697-73d898385312</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>МакетОформления</dcscor:parameter>
 					<dcscor:value xsi:type="xs:string">Античный</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет по выращиванию за сезон</v8:content>
+						</v8:item>
+					</dcscor:value>
 				</dcscor:item>
 			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
