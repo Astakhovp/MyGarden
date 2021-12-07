@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee031c83-5cf6-4e22-8580-e1d627e2e9ef">
+  <name>СправочныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочные данные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделСправочники</picture>
+  </picture>
+  <content>Catalog.Культуры</content>
+  <content>Catalog.Сорта</content>
+  <content>Catalog.РассадныеЕмкости</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.НаборыРастений</content>
+  <content>AccumulationRegister.СобраныйУрожай</content>
+</mdclass:Subsystem>

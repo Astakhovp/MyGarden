@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63e0131a-b26f-47e5-894f-c6a084ff7a04">
+  <name>Рассада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассада</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделРассада</picture>
+  </picture>
+  <content>Catalog.ПартияРассады</content>
+  <content>Catalog.РассадныеЕмкости</content>
+  <content>Document.ПриобретениеТоваровИУслуг</content>
+</mdclass:Subsystem>

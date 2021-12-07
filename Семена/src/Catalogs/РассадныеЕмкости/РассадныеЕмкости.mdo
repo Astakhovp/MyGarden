@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="383fdb64-bc71-481f-86a6-61c259730dcb">
+  <producedTypes>
+    <objectType typeId="079945cf-13f9-47c3-a74e-13ed8568be3c" valueTypeId="5f7dcf8a-e418-4f86-a95d-d668b139583c"/>
+    <refType typeId="ceae9d17-aa0c-419e-965a-560ff97d45d7" valueTypeId="cb3cdf9c-37f9-45d0-be2e-bba969871b76"/>
+    <selectionType typeId="76b052f4-da12-4127-949f-f45fbafb26d2" valueTypeId="74c3ffea-0923-4e24-a6d1-5c42d317d9c8"/>
+    <listType typeId="c3b434f5-ae8e-4b23-a646-d2ba50ebcb6d" valueTypeId="880ebf46-805f-4def-ad04-dc80d4524ade"/>
+    <managerType typeId="d8431d40-863b-414d-a430-9e44c58e29bc" valueTypeId="34c872b8-28a1-46cc-8122-bc2f310f0497"/>
+  </producedTypes>
+  <name>РассадныеЕмкости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассадные емкости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РассадныеЕмкости.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РассадныеЕмкости.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

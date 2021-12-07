@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c00a92db-4c91-4fcc-9c0e-e9ae61349415">
+  <producedTypes>
+    <selectionType typeId="93e407e8-7d54-4a6f-8681-3874fff1826d" valueTypeId="2abb3ef5-8c7c-44c2-b063-839de3c63cac"/>
+    <listType typeId="a3a53d61-53ee-4dd3-bab5-13c68258ee99" valueTypeId="72a96f77-c430-4fb4-be14-3b437cbdc193"/>
+    <managerType typeId="233ae1c2-776d-4551-a530-14fbd2675f12" valueTypeId="ff5ba5ac-8988-4551-85d1-65cff1f919ad"/>
+    <recordSetType typeId="33240cb2-1571-4574-80ac-93370d918248" valueTypeId="08148cef-6cfa-4b99-abf3-72d018c25e16"/>
+    <recordKeyType typeId="27bf60fe-2622-4cdb-b999-280e23ea78bd" valueTypeId="1fefe3af-c462-46db-a376-0165978e1638"/>
+    <recordType typeId="0456ae48-cc60-4655-b06a-00a13fdfd597" valueTypeId="62b85ba0-03e9-4d1b-8d27-025e476ef702"/>
+  </producedTypes>
+  <name>СобраныйУрожай</name>
+  <synonym>
+    <key>ru</key>
+    <value>Собраный урожай</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e838a7dd-243b-4940-a911-d6e3a04d4459">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="ac666426-027a-49c4-b11d-40c47a357acd">
+    <name>Растение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Растение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВысаженнаяРассада</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ce811305-a923-4abb-96e1-040c2a0da939">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

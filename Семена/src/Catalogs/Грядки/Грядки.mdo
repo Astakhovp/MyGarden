@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a58f2046-9f96-4218-94f8-03eeadf6e0f0">
+  <producedTypes>
+    <objectType typeId="88a7de88-7bc2-41f4-9d04-fa8325766f4c" valueTypeId="73bbf2dd-1331-44f3-b034-af227020c0a3"/>
+    <refType typeId="3b7ba007-ba58-4479-94ca-092a16e06773" valueTypeId="7536612c-7758-4c53-b745-12f1e966d84c"/>
+    <selectionType typeId="efeaddc9-acd8-46c8-ae8a-cf9a7828afdf" valueTypeId="371d7803-2c7f-4af6-9d2c-90e20bc44184"/>
+    <listType typeId="22576ca0-4af3-437c-a96a-90d4a1fde61a" valueTypeId="bc0b046a-f96b-4c06-b8ad-ee9240ca8269"/>
+    <managerType typeId="13e311b4-d289-4a73-bc0b-7fc19cadb06d" valueTypeId="dbcf431a-6fbe-4290-853b-9ac912fd0512"/>
+  </producedTypes>
+  <name>Грядки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Грядки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Грядки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Грядки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Грядка</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Грядки.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="b5fd7deb-fccd-4c53-a807-e051ea6dc1af">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86a00791-1ba3-4e9e-89af-ba5400f3dd2a">
+  <producedTypes>
+    <objectType typeId="1f232925-df38-4040-94df-9bd96332556d" valueTypeId="85389f4d-ec90-47b5-8cfc-3b635bfb35cd"/>
+    <refType typeId="b474212d-8a0d-4ae7-8c68-cfddeb901bc5" valueTypeId="16c704e7-efb0-405e-ac0a-a56dd397df4d"/>
+    <selectionType typeId="a9b3a091-f3f4-4aa8-94c6-ab29ff275b5c" valueTypeId="3fb54a57-838b-4ae9-9a70-e10a9fbd185d"/>
+    <listType typeId="f646f540-ad75-4799-a8ae-ec80439420a8" valueTypeId="dd9f3acc-b647-456c-b29f-255b25ce7468"/>
+    <managerType typeId="69df135e-0ffe-4be2-9c5e-d70f2e7513ba" valueTypeId="3fcf6472-34c6-4b7c-98a6-0ff0b0812846"/>
+  </producedTypes>
+  <name>НаборыРастений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы растений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаборыРастений.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>32</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="229f856d-ea64-4da3-954f-541482753bf9">
+    <name>НоменклатураУрожая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура урожая</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="82696f32-5454-496b-bb0e-21b44f897e27">
+    <producedTypes>
+      <objectType typeId="94c05700-62a6-48ce-aa38-e650aa523727" valueTypeId="4a2ce3c0-ee2a-4c78-9fa2-e6f455343b33"/>
+      <rowType typeId="e3ab7f1c-197e-4147-9832-adeb3851b0f9" valueTypeId="6c20b1c8-53f0-47cb-b8df-8f5848e2378c"/>
+    </producedTypes>
+    <name>Набор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор</value>
+    </synonym>
+    <attributes uuid="b89d97c4-f361-4945-9960-bcb97335ea3b">
+      <name>Растение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Растение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВысаженнаяРассада</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

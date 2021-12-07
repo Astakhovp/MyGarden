@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b38101b4-ac77-4aad-9d2c-da564ce0731d">
+  <producedTypes>
+    <refType typeId="de037b00-6555-4e15-a5a1-44b0ff8e2f74" valueTypeId="9bff0a58-44de-4671-acde-fe949fdace9a"/>
+    <listType typeId="3a960438-b97b-49fa-ae82-490d0bf53e17" valueTypeId="e161568c-9426-4fa6-901b-d5efcb6d2979"/>
+    <managerType typeId="c4bbdfbc-2fef-4ac8-b3a0-6b582eb4dfdc" valueTypeId="9f248d35-99ef-45c8-a979-2c1b555e0b25"/>
+  </producedTypes>
+  <name>ТипыСобытийВыращиванияРассады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы событий выращивания рассады</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4c8a0688-0aff-4d27-bb67-06b9d3efcc0a">
+    <name>ЗамачиваниеСемян</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замачивание семян</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c99bb96-c2dc-4979-8f0e-d3cf8dcaf1be">
+    <name>Посадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Посадка семян</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ae97990-afc0-4704-9812-b765c5e7095e">
+    <name>Полив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полив</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0089e862-098a-4c31-a0c0-f4a6ee37f42d">
+    <name>Пикирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пикирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84dbdde4-cb2f-4997-a33a-24bb316a8eea">
+    <name>Отбраковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбраковка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9272c3da-669b-4682-9ffd-9ad5f71fd853">
+    <name>Высадка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высадка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41cbfe27-591f-4e40-9a87-26b3970b60d5">
+    <name>ПередачаРассадыНаСторону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача рассады на сторону</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

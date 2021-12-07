@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="596036b7-b1b3-459c-ac78-30f664705b3d">
+  <producedTypes>
+    <objectType typeId="46f9bd8a-5c3c-4cbc-8968-dcf5c211fe94" valueTypeId="110f86bc-a4af-4df6-9bb4-8ef37c2eacc5"/>
+    <managerType typeId="7d53ffce-f32a-4366-87fc-2a741a8ad8dc" valueTypeId="47d010dc-1926-4046-963c-6b9dc2d08e12"/>
+  </producedTypes>
+  <name>ОтчетОбУрожае</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет об урожае</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОтчетОбУрожае.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="2b1b4161-c40a-4527-bec6-a230993793fa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

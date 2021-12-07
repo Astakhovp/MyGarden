@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0a8aba7-ec1d-46a9-abd8-8024689e60ce">
+  <producedTypes>
+    <objectType typeId="63eeaf84-9f11-4053-9cd7-997c7230f14a" valueTypeId="16181515-80a0-435e-8ee2-115eb0dd3d25"/>
+    <refType typeId="1e5e903b-3b7d-4738-bd3c-a85002d58211" valueTypeId="1bc80f8e-347c-4a0e-bdc1-b0445b7b4c1a"/>
+    <selectionType typeId="c15e9ca1-47ec-4921-b70d-44b073535204" valueTypeId="6d35941a-cafe-41f5-b26e-5287693a4071"/>
+    <listType typeId="08ad24b0-fbaf-4dd3-9ef3-17a86aaa095e" valueTypeId="d6780fd8-b787-4de8-9a9e-f600dd8147a6"/>
+    <managerType typeId="379ba98a-0f71-4087-b55c-48ea2af9e581" valueTypeId="869bf9eb-cf01-4a6a-a9cf-5bfef8e7053c"/>
+  </producedTypes>
+  <name>Культуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Культуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Культуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Культуры.Attribute.ИмяЛатинское</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>64</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1319931e-8957-40d3-bd4c-c4c7fc1b8336">
+    <name>ИмяЛатинское</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя латинское</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="92cce2bd-3b4c-41b2-b465-8c6793bb094c">
+    <name>ИспользоватьДополнительныеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать дополнительные свойства</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="581d9b95-5da2-4baf-a30a-6b1413914e0d">
+    <name>НаборСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор свойств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыДополнительныхРеквизитовИСведений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f78cdff9-c9c0-490b-b4d8-418e33245c24">
+    <name>ДополнительнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительная информация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

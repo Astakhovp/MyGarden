@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97c59096-b2dc-45d0-a580-b3018a04f9af">
+  <name>КонтрольНеразделенныхОбъектовПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль неразделенных объектов при записи</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.МаксимальныйРазмерФайла</types>
+    <types>ConstantValueManager.НезависимоеИспользованиеДополнительныхОтчетовИОбработокВМоделиСервиса</types>
+    <types>ConstantValueManager.НеИспользоватьРазделениеПоОбластямДанных</types>
+    <types>ConstantValueManager.СписокЗапрещенныхРасширений</types>
+    <types>ConstantValueManager.ИспользованиеКаталогаДополнительныхОтчетовИОбработокВМоделиСервиса</types>
+    <types>ConstantValueManager.СоздаватьПодкаталогиСИменамиВладельцев</types>
+    <types>ConstantValueManager.ОсновнойЯзык</types>
+    <types>ConstantValueManager.ИспользоватьПолнотекстовыйПоиск</types>
+    <types>ConstantValueManager.КоличествоПотоковОбновленияИнформационнойБазы</types>
+    <types>ConstantValueManager.ДетализироватьОбновлениеИБВЖурналеРегистрации</types>
+    <types>CatalogObject.ПоставляемыеДополнительныеОтчетыИОбработки</types>
+    <types>ConstantValueManager.ИзвлекатьТекстыФайловНаСервере</types>
+    <types>ConstantValueManager.РазрешитьВыполнениеДООРегламентнымиЗаданиямиВМоделиСервиса</types>
+    <types>ConstantValueManager.ИспользоватьПрофилиБезопасностиДляДОО</types>
+    <types>ConstantValueManager.ХранитьФайлыВТомахНаДиске</types>
+    <types>ConstantValueManager.ПараметрыРезервногоКопирования</types>
+    <types>ConstantValueManager.ПараметрыАдминистрированияИБ</types>
+    <types>ConstantValueManager.ЭтоАвтономноеРабочееМесто</types>
+    <types>ConstantValueManager.ПараметрыХраненияФайловВИБ</types>
+    <types>ConstantValueManager.ИспользоватьДополнительныеОтчетыИОбработки</types>
+    <types>ConstantValueManager.СпособХраненияФайлов</types>
+    <types>ConstantValueManager.ГлавныйУзел</types>
+    <types>ConstantValueManager.СписокРасширенийФайловOpenDocument</types>
+    <types>ConstantValueManager.МинимальныйИнтервалРегламентныхЗаданийДОИОВМоделиСервиса</types>
+    <types>ConstantValueManager.ИспользоватьРазделениеПоОбластямДанных</types>
+    <types>CatalogObject.ПредопределенныеВариантыОтчетов</types>
+    <types>ConstantValueManager.СписокРасширенийТекстовыхФайлов</types>
+    <types>ConstantValueManager.ПриоритетОбновленияВОбластяхДанных</types>
+    <types>CatalogObject.ТомаХраненияФайлов</types>
+    <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
+    <types>ConstantValueManager.НастройкаПроксиСервера</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.РаботаВМоделиСервисаБСП.КонтрольНеразделенныхОбъектовПриЗаписи</handler>
+</mdclass:EventSubscription>

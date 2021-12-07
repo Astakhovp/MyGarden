@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e689b9cc-499d-4018-9341-5305e6199103">
+  <producedTypes>
+    <managerType typeId="1b53cd4f-1960-487d-8ef0-df9883a37eef" valueTypeId="fcb4255c-9796-49ff-b6a7-939ea38bb8ff"/>
+    <valueManagerType typeId="bd802e3a-d7cd-4cd6-98ce-906471f43411" valueTypeId="9fb5be94-096b-424a-9848-2eabc5ea4eb8"/>
+    <valueKeyType typeId="79f9b766-9343-41b6-a402-2d054c8d7b80" valueTypeId="f3a8687c-3b93-4c25-8dd5-0356115d0b7c"/>
+  </producedTypes>
+  <name>ТекущийСезонВыращивания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущий сезон выращивания</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <format>
+    <key>ru</key>
+    <value>ЧГ=0</value>
+  </format>
+  <editFormat>
+    <key>ru</key>
+    <value>ЧГ=0</value>
+  </editFormat>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

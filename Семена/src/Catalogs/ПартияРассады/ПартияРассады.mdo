@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="570396ed-4e99-4546-bc1e-aa286e2ec5f5">
+  <producedTypes>
+    <objectType typeId="27ec3d34-acc6-4878-9de6-8f9c514327e2" valueTypeId="4c73d8d4-ed60-47b4-bc4b-c093fe5b5ad6"/>
+    <refType typeId="07636ca3-aa47-46a7-aa3c-7e7e845f8a9b" valueTypeId="1ce80c06-46e6-4739-bec7-f4323632be19"/>
+    <selectionType typeId="3f8585ba-bca6-49d2-b65a-0a0822385cf5" valueTypeId="07473670-e60d-4a1a-afe0-4fcda97129a9"/>
+    <listType typeId="6563b122-e789-4b00-b0f1-3735eb8d1900" valueTypeId="5bce76e3-7ae2-4664-8b78-dd8248fc0e80"/>
+    <managerType typeId="7013f374-38fc-4d24-8a42-6744f3b86731" valueTypeId="48fd6459-9076-4b7b-9966-914528751e3d"/>
+  </producedTypes>
+  <name>ПартияРассады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партия рассады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПартияРассады.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>35</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПартияРассады.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПартияРассады.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="b9066fe4-dbec-4d81-aecc-68960b68145b">
+    <name>Сорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сорт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сорта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2054c84a-f319-4287-91ea-ea968a705d87">
+    <name>ДатаПосадки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата посадки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a90902d-60ca-4ecf-ae8a-ff8061cc6c6b">
+    <name>МестоПосадкиРассады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место посадки рассады</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РассадныеЕмкости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c82a057-d27f-4616-b9dc-24747d9714a4">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c4eaa04e-0951-4018-a08c-732bfd39b77e">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f985c23c-22b1-4e22-8b56-2502cb7fa6dc">
+    <name>Рассажена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассажена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="68bc7214-3649-41bf-a5f9-1857e65392b5">
+    <producedTypes>
+      <objectType typeId="9f559c50-f99b-45cb-9faa-37237694610d" valueTypeId="e8b75026-4ddd-43f3-9df8-1455fe9b764f"/>
+      <rowType typeId="c8568ac5-0e91-449e-9111-b450d58f5bea" valueTypeId="a6130881-3509-42f3-95fc-127b13173731"/>
+    </producedTypes>
+    <name>СобытияВыращивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>События выращивания</value>
+    </synonym>
+    <attributes uuid="d1a1e4fb-8514-48ca-b4b2-2c4e506475d8">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3c51e182-7b03-464c-8aae-15946061888a">
+      <name>ТипСобытия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип события</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыСобытийВыращиванияРассады</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="664f72cc-85e5-4c5e-b437-37eea46a4f53">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2f4b2ceb-c60c-4ecf-88e6-5b9af3c27178">
+      <name>ОписаниеСобытия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание события</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="78495f18-09d9-4aff-ac9d-e91c3f7d765d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fe99307d-bec0-436e-b442-3eaaca189eac">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

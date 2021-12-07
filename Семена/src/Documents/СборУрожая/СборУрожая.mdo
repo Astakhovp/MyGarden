@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c338a5f-264f-4efe-b8c6-5be07e2fb190">
+  <producedTypes>
+    <objectType typeId="7f7c0640-d609-472a-a30d-4eaa7052f9c1" valueTypeId="fad096e1-fdac-48c1-9d41-f9b3dc268b5e"/>
+    <refType typeId="d2c06488-5604-48a4-a3ff-2d440c454518" valueTypeId="6be7ed29-02b1-4c22-a10c-7dff5350130a"/>
+    <selectionType typeId="47408ad1-d4c3-4a86-91a5-63962cc47c6e" valueTypeId="84d21471-fbd0-450e-9683-bc5e0ebe31d9"/>
+    <listType typeId="b10afae6-f402-4f27-88bc-83012f5e2a77" valueTypeId="fb080b95-69a2-4948-b4c0-7e8e98d67cdf"/>
+    <managerType typeId="48bf27c2-969d-4756-9a25-2a2d27604dec" valueTypeId="3aa052cf-b62b-47c9-9e5e-f8fd532b167d"/>
+  </producedTypes>
+  <name>СборУрожая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор урожая</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СборУрожая.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СборУрожая.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.СобраныйУрожай</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="2d11498c-5ce3-4424-b1ca-7c98de6464c6">
+    <name>Урожай</name>
+    <synonym>
+      <key>ru</key>
+      <value>Урожай</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4a0c6bd3-ba8c-4654-ad6f-c0a9ce24092c">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>6</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1cdcca3-b65a-4f38-ace7-f0e07db628f2">
+    <name>НаборРастений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор растений</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыРастений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="61e7f7cb-1eea-4d66-8bbe-68ec2c662cef">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="5ca333b7-14b7-458b-8d5c-f444112c75d0">
+    <producedTypes>
+      <objectType typeId="77935948-736b-4a1d-9be1-2ae7b79ff160" valueTypeId="119b4f2c-ba5d-4345-a479-ee5d81e5c1b9"/>
+      <rowType typeId="2e748ee7-3bca-4089-96b7-3cde1f86eb33" valueTypeId="b34ef8f6-a6aa-478f-92f4-bb92f3da5ddc"/>
+    </producedTypes>
+    <name>Растения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Растения</value>
+    </synonym>
+    <attributes uuid="967c4b6a-bad3-40be-8dfb-3a7f89d2e776">
+      <name>Растение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Растение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВысаженнаяРассада</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
