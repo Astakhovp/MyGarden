@@ -867,6 +867,7 @@
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
   <constants>Constant.ТекущийСезонВыращивания</constants>
+  <constants>Constant.ОтображатьТолькоДанныеТекущегоСезона</constants>
   <commonForms>CommonForm.АутентификацияВСервисе</commonForms>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>

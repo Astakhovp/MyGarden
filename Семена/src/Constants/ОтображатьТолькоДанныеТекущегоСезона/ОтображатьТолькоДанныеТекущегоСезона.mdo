@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ced2c6c2-e777-4369-bda2-91a3a48555d0">
+  <producedTypes>
+    <managerType typeId="426c609d-ca4c-425b-a6d8-ab6d2b10cb21" valueTypeId="4e1f03b7-224c-432b-95c9-670bfc312c67"/>
+    <valueManagerType typeId="820118e7-82e5-472e-98ec-70945292e2c5" valueTypeId="8ee439e5-0eec-4ebf-9836-b501ba00f8f6"/>
+    <valueKeyType typeId="fc7996f3-b5ff-46c2-9a33-f6011f97175e" valueTypeId="19df774e-c546-43ce-b69b-919013788b66"/>
+  </producedTypes>
+  <name>ОтображатьТолькоДанныеТекущегоСезона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отображать только данные текущего сезона</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

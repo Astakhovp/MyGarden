@@ -27,6 +27,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.НаборыРастений.Form.ФормаСписка</defaultListForm>
   <attributes uuid="229f856d-ea64-4da3-954f-541482753bf9">
     <name>НоменклатураУрожая</name>
     <synonym>
@@ -67,4 +68,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="1d823489-480d-44d7-b67b-ee0043853066">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
